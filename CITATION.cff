@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Deception at the Registry Layer: An Architecture for Detecting Autonomous AI Agents in Model Context Protocol Environments"
+authors:
+  - family-names: "Kadam"
+    given-names: "Harshad Sadashiv"
+abstract: >-
+  Autonomous AI agents explore enterprise systems by enumerating everything
+  reachable, which defeats anomaly detection because there is no deviation to
+  alert on when touching everything is the workload. This paper argues that
+  the unit of deception should be the registry, not the individual token:
+  real and decoy Model Context Protocol (MCP) servers sit side by side behind
+  one gateway portal, indistinguishable to an enumerating agent, with a
+  two-stage detection boundary that separates an agent finding a credential
+  from an agent using it. The architecture is serverless, runs with zero
+  standing infrastructure, and was demonstrated live at the OWASP 25th
+  Anniversary Conference in February 2026.
+version: "1.2"
+date-released: "2026-09-27"
+license: "CC-BY-4.0"
+url: "https://harshadsadashivkadam.com/research/registry-layer-deception/paper"
+repository-code: "https://github.com/harshadk99/agentic-deception-white-paper"
+keywords:
+  - deception engineering
+  - MCP
+  - Model Context Protocol
+  - AI security
+  - agentic security
+  - honeypot
+  - zero trust
+  - Cloudflare Workers
+preferred-citation:
+  type: report
+  title: "Deception at the Registry Layer: An Architecture for Detecting Autonomous AI Agents in Model Context Protocol Environments"
+  authors:
+    - family-names: "Kadam"
+      given-names: "Harshad Sadashiv"
+  version: "1.2"
+  date-released: "2026-09-27"
+  url: "https://github.com/harshadk99/agentic-deception-white-paper"
+  institution:
+    name: "Independent research"

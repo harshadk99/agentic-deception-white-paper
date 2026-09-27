@@ -1,0 +1,49 @@
+{
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "title": "Deception at the Registry Layer: An Architecture for Detecting Autonomous AI Agents in Model Context Protocol Environments",
+  "creators": [
+    {
+      "name": "Kadam, Harshad Sadashiv"
+    }
+  ],
+  "version": "1.2",
+  "publication_date": "2026-09-27",
+  "language": "eng",
+  "description": "<p>Autonomous AI agents enumerate everything they can reach, so there is no deviation for anomaly detection to catch. This paper argues that the unit of deception should be the Model Context Protocol (MCP) registry, not a single decoy: real and decoy MCP servers sit side by side behind one gateway portal, indistinguishable to an enumerating agent, with a two-stage detection boundary that separates an agent finding a credential from an agent using it. The architecture is serverless and was demonstrated live at the OWASP 25th Anniversary Conference in February 2026.</p><p>Independent research, conducted on the author's personal infrastructure and personal Cloudflare account.</p>",
+  "keywords": [
+    "deception engineering",
+    "Model Context Protocol",
+    "MCP",
+    "AI security",
+    "agentic security",
+    "honeypot",
+    "canary tokens",
+    "zero trust",
+    "Cloudflare Workers"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://harshadsadashivkadam.com/research/registry-layer-deception/paper",
+      "relation": "isIdenticalTo",
+      "resource_type": "publication-workingpaper"
+    },
+    {
+      "identifier": "https://github.com/harshadk99/mcp-deception-incubator-kubernetes",
+      "relation": "isSupplementedBy",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://github.com/harshadk99/deception-remote-mcp-server",
+      "relation": "isSupplementedBy",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://youtu.be/amS0icidxOs",
+      "relation": "isDocumentedBy",
+      "resource_type": "video"
+    }
+  ]
+}
